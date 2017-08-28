@@ -1,0 +1,41 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GlucotuneSuites">
+
+<test name="LoginLogout Scenario">
+    <classes>
+        <class name="glucotune.com.testing.LoginLogout" ></class>  
+    </classes>
+</test>
+
+<test name="AddGlucose Reading Scenario">
+    <classes>
+        <class name="glucotune.com.testing.AddGlucoseReading" ></class>  
+    </classes>
+</test>
+
+<test name="EditGlucose Reading Scenario">
+    <classes>
+        <class name="glucotune.com.testing.EditGlucoseReading" ></class>  
+    </classes>
+</test>
+
+<test name="Add Prescription Scenario">
+    <classes>
+        <class name="glucotune.com.testing.AddPrecription" ></class>  
+    </classes>
+</test>
+
+<test name="Add Medication Scenario">
+    <classes>
+        <class name="glucotune.com.testing.AddMedication" ></class>  
+    </classes>
+  </test>  
+  
+    <test name="Edit Profile Scenario">
+    <classes>
+        <class name="glucotune.com.testing.PatientProfile" ></class>  
+    </classes>
+</test>
+
+</suite>
